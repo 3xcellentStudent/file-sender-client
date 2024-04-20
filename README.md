@@ -3,7 +3,6 @@
 ## About:
 
 This is project for sending your files to database from your computer. Application use "Google Cloud Firestore" for storage your files is secure. 
----
 
 ## Built With:
 
