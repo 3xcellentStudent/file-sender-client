@@ -17,7 +17,7 @@ This is project for sending your files to database from your computer. Applicati
 # Getting Started
 
 This is an example of how you can provide instructions for setting up your project locally. To launch the application, follow these simple steps.
----
+
 To run you need to install Java Development Kit (JDK 17): 
 
 [JDK Development Kit](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
