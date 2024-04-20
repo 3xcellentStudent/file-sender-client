@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" styleClass="root" 
+fx:controller="com.example.client.fx.controller.ControllerFX">
+  <left>
+    <VBox styleClass="box_wrap_left" minWidth="250" VBox.vgrow="ALWAYS" alignment="CENTER">
+      <VBox styleClass="box_container">
+        <VBox styleClass="inner_container">
+          <Text styleClass="box_title">Enter E-mail:</Text>
+          <Text styleClass="title_error" fx:id="emailError"></Text>
+        </VBox>
+        <TextField fx:id="textField1"></TextField>
+      </VBox>
+      <VBox styleClass="box_container">
+        <VBox styleClass="inner_container">
+          <Text styleClass="box_title">Select file on your computer</Text>
+          <Text styleClass="title_error" fx:id="fileIsEmpty"></Text>
+        </VBox>
+        <Button onAction="#print" styleClass="submit_button" style="">Select file</Button>
+      </VBox>
+      <VBox styleClass="box_container">
+        <VBox styleClass="inner_container">
+          <Text styleClass="box_title">Selected file: </Text>
+        </VBox>
+        <Text fx:id="selectFile">---</Text>
+      </VBox>
+    </VBox>
+  </left>
+
+  <right>
+    <VBox styleClass="box_wrap_right" minWidth="250" VBox.vgrow="ALWAYS">
+      <VBox VBox.vgrow="ALWAYS">
+        <VBox styleClass="inner_container">
+          <Text styleClass="box_title">Response:</Text>
+        </VBox>
+          <Text fx:id="textResponse">File ID: ---</Text>
+      </VBox>
+      <VBox styleClass="box_container">
+        <Button onAction="#submit" fx:id="submitButton" styleClass="submit_button">Send File</Button>
+      </VBox>
+    </VBox>
+  </right>
+</BorderPane>

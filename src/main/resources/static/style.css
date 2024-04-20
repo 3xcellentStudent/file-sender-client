@@ -1,0 +1,54 @@
+.root {
+  -fx-border-width: 5px;
+  -fx-border-color: #000;
+  -fx-background-color: #404040;
+}
+
+.box_wrap_left, .box_wrap_right {
+  -fx-padding: 20px;
+}
+.box_wrap_left {
+  -fx-border-width: 0 2px 0 0;
+  -fx-border-color: #58D68D;
+}
+.box_container {
+  -fx-padding: 0 0 20px 0;
+}
+.inner_container {
+  -fx-padding: 0 0 10px 0;
+}
+.box_title {
+  -fx-font-size: 14px;
+  -fx-fill: #fff;
+  -fx-font-weight: 700;
+}
+#selectedFile {
+  -fx-font-size: 14px;
+  -fx-fill: #58D68D;
+}
+#textResponse {
+  -fx-font-size: 14px;
+  -fx-fill: #58D68D;
+}
+.title_error {
+  -fx-fill: red;
+}
+
+#selectFile {
+  -fx-font-size: 14px;
+  -fx-fill: white;
+}
+
+.submit_button {
+  -fx-background-color: #fff;
+  -fx-text-fill: black;
+  -fx-background-radius: 10px;
+  -fx-effect: dropshadow( gaussian , #20d06a , 2, 1, 0, 0);
+  -fx-box-sizing: border-box;
+  -fx-background-insets: 0;
+  -fx-cursor: hand;
+}
+.submit_button:hover {
+  -fx-text-fill: #20d06a;
+  -fx-background-color: #404040;
+}
