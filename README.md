@@ -27,7 +27,7 @@ Open dowloaded folder and try it in terminal: ```mvn spring-boot:run```
 
 Or try this: ```mvn spring-boot:run```
 
-# Another Way:
+## Another Way:
 
 If you have another JDK version, please copy this text in terminal and press Enter: 
 
