@@ -24,8 +24,9 @@ To run you need to install Java Development Kit (JDK 17):
 
 ## Running: 
 
-Open dowloaded folder and 
-``````
+Open dowloaded folder and try it in terminal: ```mvn spring-boot:run```
+
+Or try this: ```mvn spring-boot:run```
 
 # Another Way:
 
@@ -37,7 +38,7 @@ After, open terminal at downloaded folder and try this:
 
 At first enter in terminal - ```java -version```
 
-For example, if your JDK version - 21, copy this text to cmd and press Enter:
+For example, if your JDK version = 21, copy this text to cmd and press Enter:
 
 ```javac -source 17 -target 21 ClientApplication.java```
 
@@ -45,4 +46,4 @@ If the above examples did not help you can try switch Java version in System Env
 You can download JDK 17 here: [JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 ## Running:
-``````
+```mvn spring-boot:run``` Or try this: ```mvn spring-boot:run```
